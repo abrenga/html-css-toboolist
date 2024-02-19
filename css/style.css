@@ -1,0 +1,53 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+.header_style {
+    background-color: white;
+   
+
+}
+
+img {
+    width: 150px;
+    padding: 15px;
+}
+
+
+.section_button{
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding: 10px;
+}
+
+.button{
+   text-align: center;
+   padding: 8px;
+   
+}
+
+
+.content{
+   padding: 60px 0;
+}
+.container {
+    
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+}
