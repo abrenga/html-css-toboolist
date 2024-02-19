@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 ul li {
     list-style: none;
+    padding: 10px;
 }
 
 body {
@@ -15,39 +17,114 @@ body {
 
 .header_style {
     background-color: white;
-   
-
 }
 
-img {
-    width: 150px;
+.logo {
+    width: 200px;
     padding: 15px;
 }
 
 
-.section_button{
+.section_button {
     border-bottom: 1px solid rgb(161, 161, 161);
     padding: 10px;
 }
 
-.button{
-   text-align: center;
-   padding: 8px;
-   
-}
-
-
-.content{
-   padding: 60px 0;
-}
-.container {
+.button {
+    display: inline-block;
+    padding: 3px 20px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
     
-    max-width: 800px;
-    margin: 0 auto;
-
 }
 
-.card{
+.blu_stl {
+    background-color: rgb(48, 85, 206);
+    color: bisque;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 60px 0;
+}
+
+
+
+.card {
     background-color: white;
     padding: 10px;
+}
+
+.padding_list {
+    padding: 30px;
+}
+
+
+
+.spn_box {
+    margin-right: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 31px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.blue_t {
+    color: rgb(78, 137, 225);
+    border: 2px solid rgb(86, 137, 218);
+}
+
+.red_t {
+    color: rgb(213, 10, 50);
+    border: 2px solid rgb(213,
+            10,
+            50);
+}
+
+.box {
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 15px;
+    line-height: 20px;
+    color: bisque;
+}
+
+
+.b_blue {
+    background-color: rgb(48, 124, 206);
+
+}
+
+.b_blue {
+    background-color: rgb(48, 124, 206);
+
+}
+
+.b_violet {
+    background-color: blueviolet;
+}
+
+.b_green {
+    background-color: rgb(106, 190, 22);
+}
+
+.b_orange {
+    background-color: orange;
+}
+
+.b_pink {
+    background-color: rgb(194, 91, 108);
+}
+
+.b_navigreen {
+    background-color: green;
 }
