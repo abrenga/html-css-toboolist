@@ -1,3 +1,4 @@
+/*rules to apply to entire page*/
 * {
 
     margin: 0;
@@ -14,17 +15,18 @@ ul li {
 body {
     background-color: rgb(216, 216, 216);
 }
-
+/* header logo */
 .header_style {
     background-color: white;
 }
+
 
 .logo {
     width: 200px;
     padding: 15px;
 }
 
-
+/*section-bottom*/
 .section_button {
     border-bottom: 1px solid rgb(161, 161, 161);
     padding: 10px;
@@ -36,14 +38,14 @@ body {
     line-height: 30px;
     font-size: 15px;
     border-radius: 8px;
-    
+
 }
 
 .blu_stl {
     background-color: rgb(48, 85, 206);
     color: bisque;
 }
-
+/*container style*/
 .container {
 
     max-width: 1200px;
@@ -59,6 +61,7 @@ body {
 .card {
     background-color: white;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .padding_list {
@@ -66,7 +69,7 @@ body {
 }
 
 
-
+/*1st span Check-list*/
 .spn_box {
     margin-right: 20px;
     border-radius: 50%;
@@ -98,7 +101,7 @@ body {
     color: bisque;
 }
 
-
+/*2dn span-style*/
 .b_blue {
     background-color: rgb(48, 124, 206);
 
